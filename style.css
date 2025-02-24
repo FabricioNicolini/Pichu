@@ -27,16 +27,16 @@ nav ul {
     list-style: none;
     display: flex;
 }
-article ul li {
+nav ul li {
     margin-left: 20px;
 }
 /* tirar a decoração dos links */
-article ul li a {
+nav ul li a {
     color: white;
     text-decoration: none;
     font-size: 18px;
 }
-article ul li a:hover {
+nav ul li a:hover {
     color: rgb(220, 7, 0);
     text-decoration: none;
     font-size: 22px;
