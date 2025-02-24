@@ -45,6 +45,8 @@ Já essa segunda parte foi feita com o código a seguir
     </main>
 ```
 
+![footer](https://github.com/user-attachments/assets/6153a600-ff75-4480-9f05-6424aecb66fc)
+
 
 Por fim, o nosso footer foi feito assim
 
