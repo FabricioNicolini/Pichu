@@ -1,7 +1,8 @@
 Para começar a criação de um site, primeiro é necessário uma ideação e um protótipo, no nosso caso, quisemos abordar algo que gostamos, por isso decidimos criar uma página voltada a notícias sobre o mundo dos esportes. A partir disso, criamos nosso protótipo abaixo.
 
 
-imagens/protótipo.png
+![protótipo](https://github.com/user-attachments/assets/dedba8e3-e452-4e25-bffe-bcf12b8644e4)
+
 
 
 Começando agora a codificação do site a partir do início da sintaxe do html, após isso inicia-se a sintaxe do head, local onde é colocado informações sobre o site, tendo como sintaxes padrão meta name, meta charset e title(será o título da página ao abrir em algum navegador) e também foi colocado um link para criar um link entre o site e outra página .
