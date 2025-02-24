@@ -21,7 +21,7 @@ Essa parte da página foi feita a partir desse código
     </header>
 ``` 
 
-footer.png
+![body](https://github.com/user-attachments/assets/c30d07a6-773d-4807-94f3-dca8e05719cc)
 
 Já essa segunda parte foi feita com o código a seguir
 
@@ -44,3 +44,18 @@ Já essa segunda parte foi feita com o código a seguir
         </div>
     </main>
 ```
+
+
+Por fim, o nosso footer foi feito assim
+
+```css
+<footer>
+    <div class="midias">
+        <a href="https://github.com/FabricioNicolini/Pichu"><i class="fa-brands fa-github"> </i></a>
+        <a href=""><i class="fa-brands fa-twitter"></i></a>
+        <a href="https://www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
+    </div>
+    <p class="copyright"> GigantesDaBet365@2025</p>
+</footer>
+```
+
