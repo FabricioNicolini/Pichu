@@ -5,7 +5,7 @@ Para começar a criação de um site, primeiro é necessário uma ideação e um
 
 
 
-Começando agora a codificação do site a partir do início da sintaxe do html, após isso inicia-se a sintaxe do head, local onde é colocado informações sobre o site, tendo como sintaxes padrão meta name, meta charset e title(será o título da página ao abrir em algum navegador) e também foi colocado um link para criar um link entre o site e outra página .
+Começando agora a codificação do site a partir do início da sintaxe do html, após isso inicia-se a sintaxe do head, local onde é colocado informações sobre o site, tendo como sintaxes padrão meta name, meta charset e title(será o título da página ao abrir em algum navegador), além disso, em nosso site foi utilizado o css(linguagem de estilo que define como os elementos de uma página web aparecem), por esse motivo tivemos que implementar mais uma linha de código, sendo ela, um link de acesso entre o html e o css, e também foi colocado uma linha de código para criar um link entre o site e outra página .
 
 ```css
 <head>
@@ -16,7 +16,7 @@ Começando agora a codificação do site a partir do início da sintaxe do html,
 </head>
 ```
 
-Depois disso, se dá início a codificação do corpo do site, ou seja o body, dentro dele será colocado tudo o que você gostaria que aparecesse na tela ao navegar pela página, no nosso caso, iniciamos colocando um header que será o cabeçalho do nosso site, e dentro dele colocamos algumas informações como uma imagem, que será a logo do site, e também um nav, que tem como função criar uma barra de navegação para o site.
+Depois disso, se dá início a codificação do corpo do site, ou seja o body, dentro dele será colocado tudo o que você gostaria que aparecesse na tela ao navegar pela página, no nosso caso, iniciamos colocando um header que será o cabeçalho do nosso site, e dentro dele colocamos algumas informações como uma imagem, que será a logo do site, e também um nav, que tem como função criar uma barra de navegação para o site(todos com suas próprias modificações estéticas no css).
 
 ```css
 <header>
@@ -33,7 +33,7 @@ Depois disso, se dá início a codificação do corpo do site, ou seja o body, d
     </header>
 ```
 
-Ainda no body criamos um main, que será constituido pelo conteúdo principal do site, tendo dentro dele alguns articles, os quais fizemos para separar os conteúdos e posteriormente tranforma-los em cards.
+Ainda no body criamos um main, que será constituido pelo conteúdo principal do site, tendo dentro dele adicionamos alguns articles, os quais fizemos para separar os conteúdos e posteriormente tranforma-los em cards(fizemos isso utilizando do css).
 
 ```css
 <main>
