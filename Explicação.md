@@ -67,3 +67,18 @@ Por fim criamos um footer, o qual implementamos algumas navegações entre pági
     <p class="copyright"> GigantesDaBet365@2025</p>
 </footer>
 ```
+
+Para o CSS começamos pelo header, fizemos ele como uma flexbox para facil manipulação. Depois deixamos com um espacamento entre cada elemento e alinhamos eles no centro.]
+
+```css
+    header {
+    display: flex;
+    /* height: 20%; */
+    justify-content: space-between;
+    align-items: center;
+    font-family: monospace;
+    background-color: #232323;
+    padding: 10px 20px;
+    color: white;
+}
+```
