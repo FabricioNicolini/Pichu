@@ -8,10 +8,13 @@ Para começar a criação de um site, primeiro é necessário uma ideação e um
 Começando agora a codificação do site a partir do início da sintaxe do html, após isso inicia-se a sintaxe do head, local onde é colocado informações sobre o site, tendo como sintaxes padrão meta name, meta charset e title(será o título da página ao abrir em algum navegador), além disso, em nosso site foi utilizado o css(linguagem de estilo que define como os elementos de uma página web aparecem), por esse motivo tivemos que implementar mais uma linha de código, sendo ela, um link de acesso entre o html e o css, e também foi colocado uma linha de código para criar um link entre o site e outra página .
 
 ```css
-<head>
+head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
     <title>MundoEsporte</title>
 </head>
 ```
@@ -23,12 +26,12 @@ Depois disso, se dá início a codificação do corpo do site, ou seja o body, d
         <img src="logo.png" class="logo">
         <nav class="barra">
             <ul>
-                <li><a href="#">Início</a></li>
-                <li><a href="#">Login</a></li>
+
+                <li><a href="#">Palpites</a></li>
                 <li><a href="#">Partidas</a></li>
                 <li><a href="#">Contatos</a></li>
             </ul>
-            
+
         </nav>
     </header>
 ```
@@ -40,18 +43,32 @@ Ainda no body criamos um main, que será constituido pelo conteúdo principal do
         <article class="noticia">
             <h2>Jogos Paralímpicos de 2026</h2>
             <img src="COMITE ITALIANO.png" alt="" class="imgDeNoticia">
-            <p class="not">Milão e Cortina d’Ampezzo, na Itália, sediarão os Jogos Olímpicos e Paralímpicos de Inverno 2026, após vencerem a votação do Comitê Olímpico Internacional. Os Jogos Paralímpicos ocorrerão de 6 a 15 de março e prometem impulsionar a inclusão social e a sustentabilidade. O presidente do Comitê Paralímpico Internacional, Andrew Parsons, destacou a importância do evento para o esporte. Na última edição, em PyeongChang 2018, 567 atletas de 48 países participaram, incluindo três brasileiros.</p>
+            <p class="not">As cidades de Milão e Cortina d’Ampezzo serão palco dos Jogos Olímpicos e Paralímpicos de
+                Inverno 2026. Os Jogos Paralímpicos ocorrerão de 6 a 15 de março de 2026, com um foco especial na
+                inclusão social e sustentabilidade. Andrew Parsons, presidente do Comitê Paralímpico Internacional,
+                destacou a importância do evento para o esporte. Na última edição, em PyeongChang 2018, participaram 567
+                atletas de 48 países, incluindo três brasileiros.</p>
         </article>
         <article class="noticia">
             <h2>Desenvolvimento Paralímpico ultrapassa 200 inscritos</h2>
             <img src="paralim.png" alt="" class="imgDeNoticia">
-            <p class="not">A Secretaria de Esportes, em parceria com a Secretaria dos Direitos da Pessoa com Deficiência, iniciou o Programa de Desenvolvimento Paralímpico no Complexo Baby Barioni, reunindo mais de 200 profissionais de Educação Física até 21 de fevereiro. O programa visa inclusão e qualificação profissional no paradesporto, tendo formado mais de 11 mil profissionais com R$ 18 milhões investidos. Neste ano, inclui basquete em cadeira de rodas e goalball, além de outras modalidades. Em 2024, bateu recorde com 4.211 profissionais capacitados. O Estado de São Paulo reforça o compromisso com a inclusão e o desenvolvimento do esporte paralímpico.</p>
+            <p class="not">A Secretaria de Esportes, em parceria com a Secretaria dos Direitos da Pessoa com
+                Deficiência, iniciou o Programa de Desenvolvimento Paralímpico no Complexo Baby Barioni. O programa visa
+                inclusão e qualificação profissional no paradesporto, tendo formado mais de 11 mil profissionais com R$
+                18 milhões investidos. Neste ano, inclui basquete em cadeira de rodas e goalball, além de outras
+                modalidades. Em 2024, bateu recorde com 4.211 profissionais capacitados. O Estado de São Paulo reforça o
+                compromisso com a inclusão e o desenvolvimento do esporte paralímpico.</p>
         </article>
-        <article class="noticia">
+        <artilce class="noticia">
             <h2>Copa de Paraesgrima</h2>
             <img src="paraesgrima.png" alt="" class="imgDeNoticia">
-            <p class="not">A Seleção Brasileira de paraesgrima conquistou três medalhas no segundo dia da Etapa de São Paulo da Copa do Mundo: uma prata com Vanderson Chaves e dois bronzes com Jovane Guissone e Raissa Veras. Com isso, o Brasil soma cinco medalhas no torneio. Vanderson ficou com a prata no sabre B masculino após vencer Jovane na semifinal, que levou o bronze. Raissa conquistou seu segundo bronze na espada A. No primeiro dia, o Brasil já havia garantido uma prata com Jovane no florete B e um bronze com Raissa no sabre A. A competição continua no sábado, 22.</p>
-        </article>
+            <p class="not">A Seleção Brasileira de paraesgrima conquistou três medalhas no segundo dia da Etapa de São
+                Paulo da Copa do Mundo: uma prata com Vanderson Chaves e dois bronzes com Jovane Guissone e Raissa
+                Veras. Com isso, o Brasil soma cinco medalhas no torneio. Vanderson ficou com a prata no sabre B
+                masculino após vencer Jovane na semifinal, que levou o bronze. Raissa conquistou seu segundo bronze na
+                espada A. No primeiro dia, o Brasil já havia garantido uma prata com Jovane no florete B e um bronze com
+                Raissa no sabre A. A competição continua no sábado, 22.</p>
+            </article>
     </main>
 ```
 
@@ -64,7 +81,6 @@ Por fim criamos um footer, o qual implementamos algumas navegações entre pági
         <a href=""><i class="fa-brands fa-twitter"></i></a>
         <a href="https://www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
     </section>
-    <p class="copyright"> GigantesDaBet365@2025</p>
 </footer>
 ```
 
