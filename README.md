@@ -8,12 +8,13 @@ Essa parte da página foi feita a partir desse código
 <header>
         <img src="logo.png" class="logo">
         <nav class="barra">
-                <ul>
-                    <li><a href="#">Início</a></li>
-                    <li><a href="#">Login</a></li>
-                    <li><a href="#">Partidas</a></li>
-                    <li><a href="#">Contatos</a></li>
-                </ul>
+            <ul>
+
+                <li><a href="#">Palpites</a></li>
+                <li><a href="#">Partidas</a></li>
+                <li><a href="#">Contatos</a></li>
+            </ul>
+
         </nav>
     </header>
 ``` 
@@ -27,18 +28,32 @@ Já essa segunda parte foi feita com o código a seguir
         <article class="noticia">
             <h2>Jogos Paralímpicos de 2026</h2>
             <img src="COMITE ITALIANO.png" alt="" class="imgDeNoticia">
-            <p class="not">Milão e Cortina d’Ampezzo, na Itália, sediarão os Jogos Olímpicos e Paralímpicos de Inverno 2026, após vencerem a votação do Comitê Olímpico Internacional. Os Jogos Paralímpicos ocorrerão de 6 a 15 de março e prometem impulsionar a inclusão social e a sustentabilidade. O presidente do Comitê Paralímpico Internacional, Andrew Parsons, destacou a importância do evento para o esporte. Na última edição, em PyeongChang 2018, 567 atletas de 48 países participaram, incluindo três brasileiros.</p>
+            <p class="not">As cidades de Milão e Cortina d’Ampezzo serão palco dos Jogos Olímpicos e Paralímpicos de
+                Inverno 2026. Os Jogos Paralímpicos ocorrerão de 6 a 15 de março de 2026, com um foco especial na
+                inclusão social e sustentabilidade. Andrew Parsons, presidente do Comitê Paralímpico Internacional,
+                destacou a importância do evento para o esporte. Na última edição, em PyeongChang 2018, participaram 567
+                atletas de 48 países, incluindo três brasileiros.</p>
         </article>
         <article class="noticia">
             <h2>Desenvolvimento Paralímpico ultrapassa 200 inscritos</h2>
             <img src="paralim.png" alt="" class="imgDeNoticia">
-            <p class="not">A Secretaria de Esportes, em parceria com a Secretaria dos Direitos da Pessoa com Deficiência, iniciou o Programa de Desenvolvimento Paralímpico no Complexo Baby Barioni, reunindo mais de 200 profissionais de Educação Física até 21 de fevereiro. O programa visa inclusão e qualificação profissional no paradesporto, tendo formado mais de 11 mil profissionais com R$ 18 milhões investidos. Neste ano, inclui basquete em cadeira de rodas e goalball, além de outras modalidades. Em 2024, bateu recorde com 4.211 profissionais capacitados. O Estado de São Paulo reforça o compromisso com a inclusão e o desenvolvimento do esporte paralímpico.</p>
+            <p class="not">A Secretaria de Esportes, em parceria com a Secretaria dos Direitos da Pessoa com
+                Deficiência, iniciou o Programa de Desenvolvimento Paralímpico no Complexo Baby Barioni. O programa visa
+                inclusão e qualificação profissional no paradesporto, tendo formado mais de 11 mil profissionais com R$
+                18 milhões investidos. Neste ano, inclui basquete em cadeira de rodas e goalball, além de outras
+                modalidades. Em 2024, bateu recorde com 4.211 profissionais capacitados. O Estado de São Paulo reforça o
+                compromisso com a inclusão e o desenvolvimento do esporte paralímpico.</p>
         </article>
-        <article class="noticia">
+        <artilce class="noticia">
             <h2>Copa de Paraesgrima</h2>
             <img src="paraesgrima.png" alt="" class="imgDeNoticia">
-            <p class="not">A Seleção Brasileira de paraesgrima conquistou três medalhas no segundo dia da Etapa de São Paulo da Copa do Mundo: uma prata com Vanderson Chaves e dois bronzes com Jovane Guissone e Raissa Veras. Com isso, o Brasil soma cinco medalhas no torneio. Vanderson ficou com a prata no sabre B masculino após vencer Jovane na semifinal, que levou o bronze. Raissa conquistou seu segundo bronze na espada A. No primeiro dia, o Brasil já havia garantido uma prata com Jovane no florete B e um bronze com Raissa no sabre A. A competição continua no sábado, 22.</p>
-        </article>
+            <p class="not">A Seleção Brasileira de paraesgrima conquistou três medalhas no segundo dia da Etapa de São
+                Paulo da Copa do Mundo: uma prata com Vanderson Chaves e dois bronzes com Jovane Guissone e Raissa
+                Veras. Com isso, o Brasil soma cinco medalhas no torneio. Vanderson ficou com a prata no sabre B
+                masculino após vencer Jovane na semifinal, que levou o bronze. Raissa conquistou seu segundo bronze na
+                espada A. No primeiro dia, o Brasil já havia garantido uma prata com Jovane no florete B e um bronze com
+                Raissa no sabre A. A competição continua no sábado, 22.</p>
+            </article>
     </main>
 ```
 
@@ -54,7 +69,6 @@ Por fim, o nosso footer foi feito assim
         <a href=""><i class="fa-brands fa-twitter"></i></a>
         <a href="https://www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
     </section>
-    <p class="copyright"> GigantesDaBet365@2025</p>
 </footer>
 ```
 
