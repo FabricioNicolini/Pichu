@@ -87,14 +87,95 @@ Por fim criamos um footer, o qual implementamos algumas navegações entre pági
 Para o CSS começamos pelo header, fizemos ele como uma flexbox para facil manipulação. Depois deixamos com um espacamento entre cada elemento e alinhamos eles no centro.]
 
 ```css
-    header {
     display: flex;
-    /* height: 20%; */
+    position: fixed;
+    width: 100%;
     justify-content: space-between;
     align-items: center;
     font-family: monospace;
     background-color: #232323;
     padding: 10px 20px;
     color: white;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    height: 95px;
+}
+```
+
+Para o footer usamos o flexbox para manusear ele e colocamos suas medidas em % para uma responsividade melhor, para ser usado tanto no celular quanto no pc.
+
+```css
+footer {
+    display: flex;
+    background-color: #232323;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    height: 10%;
+    bottom: 0%;
+
+}
+```
+
+Mas a parte principal da responsividade fica por parte dos medias querrys. Que neste caso usamos de forma que a pagina fique bem adequada para os celulares. Tudo isso so sera evidente caso a tela tenha um tamanho maximo de 768px. Usamos porcentagem para ser adequado no tamanho da tela e um valor fix que fica bom no celular. O media querry ajuda muito na responsividade, pois nem sempre so colocar % ajuda, temos tambem que colocar valores fixos e ideias que so o celular tem. Como no nosso site, caso vc veja pelo celular as noticias vao ficar em coluna não uma do lado da outra como no desktop.
+
+```css
+@media (max-width: 768px) {
+
+    .noticia {
+        width: 90%;
+
+
+    }
+
+    header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: auto;
+        /* Permite que o header cresça conforme necessário */
+
+    }
+
+    .logo {
+        height: 80px;
+        width: 80px;
+    }
+
+    nav {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: center;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+    }
+
+
+    nav ul li a {
+        padding: 10px;
+        width: 100%;
+        text-align: center;
+    }
+
+    /* Evita que o header cubra as notícias */
+    body {
+        padding-top: 140px;
+        /* Ajusta o espaço no topo para evitar sobreposição */
+    }
+
+    footer {
+        flex-direction: row;
+        height: 8%;
+        text-align: center;
+
+    }
 }
 ```
