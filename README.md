@@ -1,18 +1,19 @@
 # Pichu
 
-![image](https://github.com/user-attachments/assets/d0368e52-45e6-43d2-8bf9-e1938fad0d47)
+![header png](https://github.com/user-attachments/assets/a429a74b-f6e4-4ed9-8bfc-beb9e0478855)
+
 
 Essa parte da página foi feita a partir desse código
 
 ```css
 <header>
-        <img src="logo.png" class="logo">
+        <img src="imagens\logo.png" class="logo">
         <nav class="barra">
             <ul>
 
-                <li><a href="#">Palpites</a></li>
-                <li><a href="#">Partidas</a></li>
-                <li><a href="#">Contatos</a></li>
+                <li><a href="palpites\palpites.html">Palpites</a></li>
+                <li><a href="partidas/partidas.html">Partidas</a></li>
+                <li><a href="contatos/contatos.html">Contatos</a></li>
             </ul>
 
         </nav>
