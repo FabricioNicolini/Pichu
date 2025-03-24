@@ -1,0 +1,106 @@
+/* Definimos essa parte do código como default (Parte do header e footer) */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h2 {
+    font-family: Arial, sans-serif;
+}
+body {
+    font-family: Arial, sans-serif;
+    padding-top: 80px;
+    padding-bottom: 60px;
+}
+header {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    font-family: monospace;
+    background-color: #232323;
+    padding: 10px 20px;
+    color: white;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    height: 95px;
+}
+.logo {
+    border-radius: 10px;
+
+    width: 6%;
+}
+/* tirar os pontinhos da lista e deixar flex para row */
+nav {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    /* Mantém os itens alinhados verticalmente */
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    /* Garante que os itens fiquem centralizados dentro do header */
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+nav ul li {
+    margin-left: 20px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 15px;
+    /* Ajuste de espaçamento interno */
+    display: flex;
+    align-items: center;
+    /* Mantém os links centralizados */
+    height: 100%;
+}
+nav ul li a:hover {
+    color: rgb(220, 7, 0);
+    font-size: 20px;
+}
+/* Parte do footer nos mudamos , colocamos o position fixed para deixar ele no final da pagina*/
+footer {
+    display: flex;
+    background-color: #232323;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    height: 10%;
+    bottom: 0%;
+
+}
+/* Essa parte do "i" são os icones do instagram , github e tambem o twitter */
+i {
+    font-size: 28px;
+    gap: 5px;
+    margin: 2vh;
+    cursor: pointer;
+    /* margin-top: 3%; */
+    color: rgb(196, 196, 196);
+}
+/* Estilização das partidas */
+.partida {
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+  }
+  
+    
+ 
+  
+  p {
+    font-size: 1em;
+    margin: 10px 0;
+  }
